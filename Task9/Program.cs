@@ -39,10 +39,10 @@ int secondDigit = number % 10;
 
 int MaxDigit(int num)
 {
-int firstDigit = num / 10;
-int secondDigit = num % 10;
-if (firstDigit == secondDigit) return 0;
-return firstDigit > secondDigit ? firstDigit : secondDigit;
+    int firstDigit = num / 10;
+    int secondDigit = num % 10;
+    if (firstDigit == secondDigit) return 0;
+    return firstDigit > secondDigit ? firstDigit : secondDigit;
 }
 
 int result = MaxDigit(number);
