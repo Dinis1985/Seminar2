@@ -15,5 +15,6 @@ int secondDigit = number % 10;
 //else if (firstDigit > secondDigit) Console.WriteLine($"Наибольшая цифра числа {number} => {firstDigit}");
 //else Console.WriteLine($"Наибольшая цифра числа {number} => {secondDigit}");
 
-int result = firstDigit > secondDigit ? firstDigit : secondDigit;
+string result = firstDigit == secondDigit ? "Цифры равны"
+: firstDigit > secondDigit ? firstDigit.ToString() : secondDigit.ToString();
 Console.WriteLine($"Наибольшая цифра числа {number} => {result}");
