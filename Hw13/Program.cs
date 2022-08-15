@@ -19,6 +19,7 @@ else
     int res = num1 % 10;
     Console.WriteLine($"Третья цифра числа {number} -> {res}");
 }
+
 // if (res < 0)
 // {
 //     Console.WriteLine($"Третья цифра числа: {res * -1}");
@@ -27,6 +28,4 @@ else
 // {
 //     Console.WriteLine($"Третья цифра числа {number} -> {res}");
 // }
-
-
 
