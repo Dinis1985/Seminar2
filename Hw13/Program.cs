@@ -9,7 +9,7 @@ Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int num1 = number;
 
-if (num1 <= 100) Console.WriteLine($"Третья цифра числа {number} -> отсутствует ");
+if (num1 < 100) Console.WriteLine($"Третья цифра числа {number} -> отсутствует ");
 else
 {
     while (num1 >= 1000)
@@ -19,9 +19,14 @@ else
     int res = num1 % 10;
     Console.WriteLine($"Третья цифра числа {number} -> {res}");
 }
-
-
-
+// if (res < 0)
+// {
+//     Console.WriteLine($"Третья цифра числа: {res * -1}");
+// }
+// else 
+// {
+//     Console.WriteLine($"Третья цифра числа {number} -> {res}");
+// }
 
 
 
